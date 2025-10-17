@@ -71,7 +71,7 @@ const AnalyticsAutomation = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-4xl"
+            className="max-w-4xl mx-auto text-center"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Turning Data into <span className="text-gradient">Smart Decisions</span>

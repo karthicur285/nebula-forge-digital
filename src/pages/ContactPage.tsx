@@ -240,10 +240,10 @@ const ContactPage = () => {
             <div className="text-center">
               <MapPin className="w-16 h-16 text-neon-blue mx-auto mb-4" />
               <h3 className="text-2xl font-bold mb-2">Visit Our Office</h3>
-              <p className="text-muted-foreground">
+              {/* <p className="text-muted-foreground">
                 San Francisco, California<br />
                 United States
-              </p>
+              </p> */}
             </div>
           </motion.div>
         </div>
