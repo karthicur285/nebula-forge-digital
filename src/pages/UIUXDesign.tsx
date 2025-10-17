@@ -61,17 +61,17 @@ const UIUXDesign = () => {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-neon-cyan/10 via-background to-background" />
         <div className="container mx-auto px-4 relative z-10">
-          <Breadcrumb items={[
+          {/* <Breadcrumb items={[
             { label: "Home", href: "/" },
             { label: "Services", href: "/#services" },
             { label: "UI/UX Design" }
-          ]} />
+          ]} /> */}
           
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="max-w-4xl"
+            className="max-w-4xl text-center  mx-auto"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Designs That <span className="text-gradient">Inspire</span> and{" "}
