@@ -8,6 +8,11 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "^/software-development(?:/.*)?$", "dest": "/index.html" },
+    { "src": "^/contact(?:/.*)?$", "dest": "/index.html" },
+    { "src": "^/analyticsautomation(?:/.*)?$", "dest": "/index.html" },
+    { "src": "^/digitalmarketing(?:/.*)?$", "dest": "/index.html" },
+    { "src": "^/uiuxdesign(?:/.*)?$", "dest": "/index.html" },
+    { "src": "^/(.*)$", "dest": "/index.html" }
   ]
 }
